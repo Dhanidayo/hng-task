@@ -110,6 +110,10 @@ b {
 	font-size: 2.5rem;
 }
 
+.abt {
+	margin-bottom: -1.2px;
+}
+
 .education {
 	width: 100%;
 	text-align: center;
@@ -130,12 +134,11 @@ b {
 }
 
 h3 {
-	padding: 5px;
 	color: deepskyblue;
 }
 
 .btns button {
-	padding: 1rem 2rem;
+	padding: 0.6rem 1.5rem;
 	border-radius: 15px;
 	border: none;
 	outline: none;
