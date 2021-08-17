@@ -1,0 +1,165 @@
+* {box-sizing: border-box;}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 1.15rem;
+}
+
+.main-container {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	color: #333;
+}
+
+.section1 {
+	width: 30%;
+	margin: 0;
+	background: #00bfff;
+	padding: 15px;
+}
+
+.side {
+	margin-left: 5rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.side h1 {
+	font-size: 1.7rem;
+	margin-left: 2rem;
+}
+
+ul {
+	margin-top: 4rem;
+}
+
+li {
+	font-size: 1.2rem;
+	margin: 15px;
+	list-style-type: none;
+}
+
+.sm-icon img {
+	width: 30px;
+	height: 30px;
+	margin-left: 4rem;
+}
+
+.sm-icon img:hover {
+	opacity: 0.8;
+	transform: translateY(5px);
+}
+
+.picture {
+	width: 15rem;
+	height: 15rem;
+	border-radius: 50%;
+	margin-top: 2rem;
+	margin-left: 2rem;
+}
+
+.hire-me {
+	max-width: 10rem;
+	padding: 10px 22px;
+	background: #d4af37;
+	color: #fff;
+	border: none;
+	border-radius: 20px;
+	font-size: 1.3rem;
+	margin-left: 4rem;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.hire-me:hover {
+	opacity: 0.8;
+}
+
+.section2{
+	width: 70%;
+	background: #f5f5f5;
+}
+
+.image-div {
+	text-align: center;
+}
+
+.about {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.title {
+	margin-bottom: -10px;
+	text-align: center;
+}
+
+b {
+	color: #d4af37;
+	font-size: 2.5rem;
+}
+
+.education {
+	width: 100%;
+	text-align: center;
+}
+
+.education p {
+	text-align: center;
+	margin: 10px;
+}
+
+.services {
+	width: 95%;
+	margin: auto;
+	display: flex;
+	align-content: space-around;
+	justify-content: space-evenly;
+	background-color: #ddd;
+}
+
+h3 {
+	padding: 5px;
+	color: deepskyblue;
+}
+
+.btns button {
+	padding: 1rem 2rem;
+	border-radius: 15px;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 1.3rem;
+}
+
+.html {
+	background-color: orangered;
+	
+}
+
+.css {
+	background-color: deepskyblue;
+}
+
+.js {
+	background-color: #d4af37;
+}
+
+.react {
+	background-color: deepskyblue;
+}
+
+.csharp {
+	background-color: purple;
+}
